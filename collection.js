@@ -1,3 +1,5 @@
+// 3a.
+
 let myCollection = [
     {
       name: "School of Code mug",
@@ -16,4 +18,4 @@ let myCollection = [
     }
   ];
 
-  module.exports myCollection;
+  export default myCollection;
