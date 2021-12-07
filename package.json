@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/SchoolOfCode/node-101-workshop-chris-and-marwa/issues"
   },
-  "homepage": "https://github.com/SchoolOfCode/node-101-workshop-chris-and-marwa#readme"
+  "homepage": "https://github.com/SchoolOfCode/node-101-workshop-chris-and-marwa#readme",
+  "dependencies": {
+    "chalk": "^5.0.0"
+  }
 }

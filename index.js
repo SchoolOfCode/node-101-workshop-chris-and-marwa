@@ -1,3 +1,4 @@
+import chalk from 'chalk';
 // 3c.
 import myCollection from "./collection.js";
 
@@ -7,12 +8,12 @@ console.log(myCollection);
 function describeItem (item) {
 
     if (item.count > 1) {
-      console.log(`I have ${item.count} ${item.name}'s`);
+      console.log(`I have ${chalk.yellow(item.count)} ${chalk.cyan(item.name)}s`);
       console.log(`Here's what I like about it: ${item.whatILike}`);
     } 
     else if (item.count <= 1) {
-      console.log(`I have a ${item.name}`);
-      console.log(`Here's what I like about it: ${item.whatILike}`);
+      console.log(`I have a ${chalk.cyan(item.name)}`);
+      console.log(`Here's what I like about it: ${chalk.green(item.whatILike)}`);
     }
   }
   
